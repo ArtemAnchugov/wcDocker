@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>wcDocker</id>
+        <version>3.0.0-PreRelease</version>
+        <authors>https://github.com/WebCabin</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>wcDocker (Web Cabin Docker) is a powerful window layout system with a responsive and completely interactive design. Move, remove, create, and duplicate panel windows at any time! Organize how you wish!</description>
+        <dependencies>
+            <dependency id="jQuery" version="1.11.1" />
+            <dependency id="jquery.contextMenu" version="1.6.6" />
+            <dependency id="Font.Awesome" version="4.4.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Build\wcDocker.js" target="content\scripts\wcDocker.js" />
+        <file src="Build\wcDocker.min.js" target="content\scripts\wcDocker.min.js" />
+        <file src="Build\Themes\bigRed.css" target="content\styles\themes\bigRed.css" />
+        <file src="Build\Themes\bigRed.min.css" target="content\styles\themes\bigRed.min.css" />
+        <file src="Build\Themes\default.css" target="content\styles\themes\default.css" />
+        <file src="Build\Themes\default.min.css" target="content\styles\themes\default.min.css" />
+        <file src="Build\Themes\ideDark.css" target="content\styles\themes\ideDark.css" />
+        <file src="Build\Themes\ideDark.min.css" target="content\styles\themes\ideDark.min.css" />
+        <file src="Build\Themes\shadow.css" target="content\styles\themes\shadow.css" />
+        <file src="Build\Themes\shadow.min.css" target="content\styles\themes\shadow.min.css" />
+        <file src="Build\wcDocker.css" target="content\styles\wcDocker.css" />
+        <file src="Build\wcDocker.min.css" target="content\styles\wcDocker.min.css" />
+    </files>
+</package>
